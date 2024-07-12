@@ -2819,7 +2819,7 @@ div.test img {
 .section-3-title {
   font-family: var(--tp-ff-jakarta);
   font-weight: 700;
-  font-size: 60px;
+  font-size: 36px;
   line-height: 1.09;
   letter-spacing: -0.01em;
   color: var(--tp-common-11);
@@ -8243,7 +8243,7 @@ blockquote cite::before {
   background-color: #F5F5F5;
 }
 .footer-5 .footer-top {
-  padding-bottom: 55px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #E6E6E6;
 }
 .footer-5 .footer-widget-social a i {
@@ -9383,11 +9383,15 @@ blockquote cite::before {
 .banner-5-title {
   font-family: var(--tp-ff-jakarta);
   font-weight: 700;
-  font-size: 90px;
+  font-size: 64px;
   line-height: 1.02;
   letter-spacing: -0.01em;
   color: var(--tp-common-11);
   margin-bottom: 20px;
+}
+
+.font-roxo{
+  color: #A932FE;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
   .banner-5-title {
@@ -9501,6 +9505,7 @@ blockquote cite::before {
   position: absolute;
   left: 23%;
   top: 2%;
+  animation: hero-shape-anim 1.5s infinite alternate;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .banner-5-thumb-shape-three {
@@ -12128,11 +12133,11 @@ blockquote cite::before {
 }
 
 .price-custom-col-1 {
-  width: 28%;
+  width: 40%;
 }
 
 .price-custom-col-2 {
-  width: 72%;
+  width: 60%;
 }
 
 .pricing-box-4 {
@@ -12141,7 +12146,7 @@ blockquote cite::before {
   border-radius: 20px;
 }
 .pricing-box-4 .active {
-  background-color: var(--tp-theme-blue);
+  background-color: #A932FE;
 }
 .pricing-box-4 .active.tppricing-4-price p {
   font-weight: 600;
@@ -12179,7 +12184,7 @@ blockquote cite::before {
   font-weight: 500;
   font-size: 15px;
   line-height: 14px;
-  color: var(--tp-theme-blue);
+  color: #A932FE;
   display: inline-block;
   margin-bottom: 13px;
 }
@@ -12260,8 +12265,8 @@ blockquote cite::before {
   background-color: transparent;
 }
 .tppricing-4-btn a:hover {
-  border: 2px solid var(--tp-theme-blue);
-  background-color: var(--tp-theme-blue);
+  border: 2px solid #A932FE;
+  background-color: #A932FE;
   color: var(--tp-common-white);
 }
 .tppricing-4-btn.tppricing-4-price::before {
@@ -12280,7 +12285,7 @@ blockquote cite::before {
   padding: 0px 15px;
 }
 .tppriceing-top .active {
-  background-color: var(--tp-theme-blue);
+  background-color: #A932FE;
   position: relative;
   z-index: 1;
 }
@@ -12291,7 +12296,7 @@ blockquote cite::before {
   left: 0;
   height: 15px;
   width: 100%;
-  background-color: var(--tp-theme-blue);
+  background-color: #A932FE;
 }
 .tppriceing-top .active.tppricing-4-head .title {
   color: var(--tp-common-white);
@@ -12482,7 +12487,7 @@ blockquote cite::before {
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px), only screen and (min-width: 576px) and (max-width: 767px) {
   .price-scroll-width {
-    width: 1100px;
+    width: 700px;
   }
 }
 
