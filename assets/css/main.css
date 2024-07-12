@@ -17263,14 +17263,15 @@ div.price-open {
 }
 .feature-inner-icon span {
   display: inline-block;
-  height: 60px;
-  width: 60px;
-  line-height: 60px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
   text-align: center;
   border-radius: 50%;
-  background: linear-gradient(156.17deg, rgba(66, 96, 255, 0.1) 7.4%, rgba(66, 96, 255, 0) 90.3%);
+  background: linear-gradient(156.17deg, rgba(18, 77, 100, 0.1) 7.4%, rgba(18, 77, 100, 0) 90.3%);
   margin-right: 20px;
   transform: translateY(4px);
+  color: #2FC5FF;
 }
 .feature-inner-title {
   font-family: var(--tp-ff-jakarta);
